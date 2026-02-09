@@ -24,11 +24,11 @@ Project Architecture:
 The project follows a layered architecture to ensure separation of concerns:
 
 Presentation Layer (Console Menus)
-        ↓
+        ↓<br>
 Service Layer (Business Logic & Validation)
-        ↓
+        ↓<br>
 DAO Layer (JDBC Database Operations)
-        ↓
+        ↓<br>
 Database Layer (Oracle SQL)
 
 Benefits:
@@ -74,7 +74,7 @@ Login Successful / Login Failed
 
 Role-Based Access Control Workflow:
 Login Success
-        ↓
+        ↓      
 Fetch user role
         ↓
 Display menus based on role
