@@ -1,0 +1,107 @@
+2026-01-27 23:21:32 INFO  com.revworkforce.service.LeaveService - Fetching my leaves empId=3001
+2026-01-27 23:21:46 INFO  com.revworkforce.service.LeaveService - Cancel leave requestId=1 empId=3001
+2026-01-27 23:26:55 INFO  com.revworkforce.service.LeaveService - Fetching my leaves empId=3001
+2026-01-27 23:27:04 INFO  com.revworkforce.service.LeaveService - Cancel leave requestId=2 empId=3001
+2026-01-27 23:28:43 INFO  com.revworkforce.service.LeaveService - Fetching my leaves empId=3001
+2026-01-27 23:28:53 INFO  com.revworkforce.service.LeaveService - Fetching leave balance empId=3001
+2026-01-27 23:43:42 INFO  Fetching team leaves managerId=2001
+2026-01-28 00:04:23 INFO  Fetching leave balance empId=1001
+2026-01-28 00:04:23 INFO  Leave apply requested empId=1001 type=1
+2026-01-28 00:04:23 WARN  Insufficient leave balance empId=1001
+2026-01-28 00:04:23 INFO  Cancel leave requestId=9999 empId=1001
+2026-01-28 00:07:31 INFO  Fetching leave balance empId=1001
+2026-01-28 00:07:31 INFO  Leave apply requested empId=3004 type=1
+2026-01-28 00:07:31 INFO  Leave applied successfully empId=3004
+2026-01-28 00:07:31 INFO  Cancel leave requestId=9999 empId=1001
+2026-01-28 09:31:16 INFO  Fetching my leaves empId=1001
+2026-01-28 09:31:40 INFO  Fetching my leaves empId=2001
+2026-01-28 09:31:50 INFO  Fetching team leaves managerId=2001
+2026-01-28 09:35:25 INFO  Fetching leave balance empId=1001
+2026-01-28 09:35:25 INFO  Leave apply requested empId=3004 type=1
+2026-01-28 09:35:25 WARN  Overlapping leave empId=3004
+2026-01-28 09:35:26 INFO  Cancel leave requestId=9999 empId=1001
+2026-01-28 09:35:57 INFO  Fetching leave balance empId=1001
+2026-01-28 09:35:57 INFO  Leave apply requested empId=3004 type=1
+2026-01-28 09:35:57 INFO  Leave applied successfully empId=3004
+2026-01-28 09:35:57 INFO  Cancel leave requestId=9999 empId=1001
+2026-01-28 17:06:09 INFO  Fetching leave balance empId=1001
+2026-01-28 17:06:09 INFO  Leave apply requested empId=3004 type=1
+2026-01-28 17:06:09 WARN  Overlapping leave empId=3004
+2026-01-28 17:06:09 INFO  Cancel leave requestId=9999 empId=1001
+2026-01-28 17:24:50 INFO  Leave apply requested empId=3004 type=1
+2026-01-28 17:24:50 INFO  Leave applied successfully empId=3004
+2026-01-28 17:33:05 INFO  Fetching leave balance empId=1001
+2026-01-28 17:33:05 INFO  Leave apply requested empId=3004 type=1
+2026-01-28 17:33:05 WARN  Overlapping leave empId=3004
+2026-01-28 17:33:05 INFO  Cancel leave requestId=9999 empId=1001
+2026-01-28 17:33:27 INFO  Fetching leave balance empId=1001
+2026-01-28 17:33:27 INFO  Leave apply requested empId=3004 type=1
+2026-01-28 17:33:27 INFO  Leave applied successfully empId=3004
+2026-01-28 17:33:27 INFO  Cancel leave requestId=9999 empId=1001
+2026-01-28 20:11:09 INFO  Leave apply requested empId=1001 type=1
+2026-01-28 20:11:09 WARN  Insufficient leave balance empId=1001
+2026-01-28 20:13:24 INFO  Leave apply requested empId=3004 type=3
+2026-01-28 20:13:24 INFO  Leave applied successfully empId=3004
+2026-01-28 20:14:08 INFO  Fetching my leaves empId=2001
+2026-01-28 20:14:22 INFO  Fetching team leaves managerId=2001
+2026-01-28 20:15:23 INFO  Leave request 10 updated to APPROVED
+2026-01-28 20:16:04 INFO  Fetching leave balance empId=3004
+2026-01-28 20:16:43 INFO  Fetching my leaves empId=3004
+2026-01-28 20:20:11 INFO  Fetching my leaves empId=3004
+2026-01-28 20:20:27 INFO  Fetching my leaves empId=3004
+2026-01-28 23:28:27 INFO  Leave apply request empId=3004 typeId=2
+2026-01-28 23:28:36 INFO  Fetching leave balance empId=3004
+2026-01-28 23:32:23 INFO  Fetching leave balance empId=3004
+2026-01-29 01:07:52 INFO  Fetching leave balance empId=1001
+2026-01-29 01:07:53 INFO  Leave apply request empId=3004 typeId=1
+2026-01-29 01:10:45 INFO  Fetching leave balance empId=1001
+2026-01-29 01:10:45 INFO  Leave apply request empId=3004 typeId=1
+2026-01-29 01:10:45 WARN  Overlapping leave empId=3004
+2026-01-29 11:40:20 INFO  Fetching leave balance empId=1001
+2026-01-29 11:43:27 INFO  Fetching leave balance empId=1001
+2026-01-29 11:43:27 INFO  Leave apply request empId=3004 typeId=1
+2026-01-29 11:43:27 WARN  Overlapping leave empId=3004
+2026-01-29 11:43:53 INFO  Fetching leave balance empId=1001
+2026-01-29 11:43:54 INFO  Leave apply request empId=3004 typeId=1
+2026-01-29 15:08:16 INFO  Fetching leave balance empId=1001
+2026-01-29 15:08:16 INFO  Leave apply request empId=3004 typeId=1
+2026-01-29 15:08:16 WARN  Overlapping leave empId=3004
+2026-02-01 11:36:58 INFO  Fetching leave balance empId=1001
+2026-02-01 11:40:08 INFO  Leave apply request empId=1001 typeId=1
+2026-02-01 11:40:08 WARN  Insufficient leave balance empId=1001
+2026-02-01 19:06:14 INFO  Leave apply request empId=1001 typeId=1
+2026-02-01 21:55:25 INFO  Fetching leave balance empId=3001
+2026-02-01 21:58:30 INFO  Leave apply request empId=3001 typeId=1
+2026-02-01 22:06:37 INFO  Leave apply request empId=3001 typeId=1
+2026-02-01 22:08:31 INFO  Leave apply request empId=3001 typeId=1
+2026-02-01 22:08:32 WARN  Overlapping leave empId=3001
+2026-02-01 22:09:30 INFO  Leave apply request empId=3001 typeId=1
+2026-02-01 22:13:11 INFO  Fetching leave balance empId=3001
+2026-02-01 22:19:44 INFO  Leave apply request empId=3001 typeId=2
+2026-02-01 22:19:53 INFO  Fetching leave balance empId=3001
+2026-02-01 22:42:40 INFO  Fetching leave balance empId=3001
+2026-02-01 23:13:53 INFO  Leave apply request empId=3002 typeId=3
+2026-02-02 23:25:56 INFO  Leave apply request empId=3001 typeId=1
+2026-02-04 23:05:04 INFO  Fetching leave balance empId=3001
+2026-02-07 12:15:49 INFO  Fetching leave balance empId=3001
+2026-02-07 12:16:53 INFO  Leave apply request empId=3001 typeId=3
+2026-02-07 12:16:53 WARN  Insufficient leave balance empId=3001
+2026-02-07 12:20:24 INFO  Leave apply request empId=3001 typeId=3
+2026-02-07 12:20:25 WARN  Overlapping leave empId=3001
+2026-02-07 12:30:44 INFO  Fetching leave balance empId=3001
+2026-02-07 12:31:09 INFO  Leave apply request empId=3001 typeId=3
+2026-02-07 12:31:09 WARN  Overlapping leave empId=3001
+2026-02-07 12:32:21 INFO  Leave apply request empId=3001 typeId=4
+2026-02-07 12:42:07 INFO  Leave apply request empId=3001 typeId=3
+2026-02-08 22:12:20 INFO  Fetching leave balance empId=3002
+2026-02-08 22:12:58 INFO  Leave apply request empId=3002 typeId=3
+2026-02-08 22:16:25 INFO  Leave apply request empId=3002 typeId=3
+2026-02-08 22:30:38 INFO  Fetching leave balance empId=3002
+2026-02-08 22:34:13 INFO  Fetching leave balance empId=2001
+2026-02-09 09:42:58 INFO  Fetching leave balance empId=1001
+2026-02-09 09:42:58 INFO  Leave apply request empId=3004 typeId=1
+2026-02-09 09:44:55 INFO  Fetching leave balance empId=1001
+2026-02-09 09:44:55 INFO  Leave apply request empId=3004 typeId=1
+2026-02-09 09:44:55 WARN  Overlapping leave empId=3004
+2026-02-09 09:45:13 INFO  Fetching leave balance empId=1001
+2026-02-09 09:45:32 INFO  Fetching leave balance empId=1001

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <Appenders>
+
+        <!-- Console: ONLY ERROR -->
+        <Console name="ConsoleError" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss} %-5level %c - %msg%n"/>
+            <ThresholdFilter level="error"
+                             onMatch="ACCEPT"
+                             onMismatch="DENY"/>
+        </Console>
+
+        <!-- Default app log -->
+        <File name="AppFile"
+              fileName="logs/revworkforce.log"
+              append="true">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %c - %msg%n"/>
+        </File>
+
+        <!-- Leave module -->
+        <File name="LeaveFile"
+              fileName="logs/leave.log"
+              append="true">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %msg%n"/>
+        </File>
+
+        <!-- Auth module -->
+        <File name="AuthFile"
+              fileName="logs/auth.log"
+              append="true">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %msg%n"/>
+        </File>
+
+        <!-- Performance module -->
+        <File name="PerformanceFile"
+              fileName="logs/performance.log"
+              append="true">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %msg%n"/>
+        </File>
+
+    </Appenders>
+
+    <Loggers>
+
+        <!-- Leave package -->
+        <Logger name="com.revworkforce.service.LeaveService"
+                level="info"
+                additivity="false">
+            <AppenderRef ref="LeaveFile"/>
+            <AppenderRef ref="ConsoleError"/>
+        </Logger>
+
+        <!-- Auth/Login package -->
+        <Logger name="com.revworkforce.service.AuthService"
+                level="info"
+                additivity="false">
+            <AppenderRef ref="AuthFile"/>
+            <AppenderRef ref="ConsoleError"/>
+        </Logger>
+
+        <!-- Performance package -->
+        <Logger name="com.revworkforce.service.PerformanceService"
+                level="info"
+                additivity="false">
+            <AppenderRef ref="PerformanceFile"/>
+            <AppenderRef ref="ConsoleError"/>
+        </Logger>
+
+        <!-- Default -->
+        <Root level="info">
+            <AppenderRef ref="AppFile"/>
+            <AppenderRef ref="ConsoleError"/>
+        </Root>
+
+    </Loggers>
+
+</Configuration>
