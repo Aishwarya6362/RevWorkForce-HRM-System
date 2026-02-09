@@ -22,12 +22,12 @@ Audit logging for critical actions
 
 Project Architecture:
 The project follows a layered architecture to ensure separation of concerns:
-
-Presentation Layer (Console Menus)
+<br>
+Presentation Layer (Console Menus)<br>
         ↓<br>
-Service Layer (Business Logic & Validation)
+Service Layer (Business Logic & Validation)<br>
         ↓<br>
-DAO Layer (JDBC Database Operations)
+DAO Layer (JDBC Database Operations)<br>
         ↓<br>
 Database Layer (Oracle SQL)
 
@@ -52,7 +52,7 @@ Authentication & Authorization:
 User credentials are validated using hashed passwords
 Only ACTIVE employees are allowed to log in
 
-Role-based menu access is enforced as follows:
+Role-based menu access is enforced as follows:<br>
 
 EMPLOYEE → Employee Menu
 MANAGER  → Employee + Manager Menu
@@ -61,88 +61,88 @@ ADMIN    → Employee + Manager + Admin Menu
 This approach prevents unauthorized access and ensures hierarchy-based operations.
 
 Application Workflows--
-Login & Authentication Workflow:
-User enters Employee ID and Password
-        ↓
-Password hashed using SHA-256
-        ↓
-Credentials validated from EMPLOYEE table
-        ↓
-Employee status check (ACTIVE / INACTIVE)
-        ↓
+Login & Authentication Workflow:<br>
+User enters Employee ID and Password<br>
+        ↓<br>
+Password hashed using SHA-256<br>
+        ↓<br>
+Credentials validated from EMPLOYEE table<br>
+        ↓<br>
+Employee status check (ACTIVE / INACTIVE)<br>
+        ↓<br>
 Login Successful / Login Failed
 
 Role-Based Access Control Workflow:
-Login Success
-        ↓      
-Fetch user role
-        ↓
+Login Success<br>
+        ↓<br>
+Fetch user role<br>
+        ↓<br>
 Display menus based on role
 
-Employee Profile Management Workflow:
-View Profile
-        ↓
-Service validation
-        ↓
-DAO fetches profile using joins
-        ↓
+Employee Profile Management Workflow:<br>
+View Profile<br>
+        ↓<br>
+Service validation<br>
+        ↓<br>
+DAO fetches profile using joins<br>
+        ↓<br>
 Display non-sensitive employee details
 
-Update Profile
-        ↓
-Validate ACTIVE status
-        ↓
+Update Profile<br>
+        ↓<br>
+Validate ACTIVE status<br>
+        ↓<br>
 Update phone, address, emergency contact
 
-Leave Management Workflow:
-Employee applies for leave
-        ↓
-Initialize leave balance (if missing)
-        ↓
-Check overlapping leave dates
-        ↓
-Validate leave balance
-        ↓
-Manager exists?
-        ↓
-PENDING / Auto-APPROVED
-        ↓
-Update leave balance
-        ↓
-Create notification
-        ↓
+Leave Management Workflow:<br>
+Employee applies for leave<br>
+        ↓<br>
+Initialize leave balance (if missing)<br>
+        ↓<br>
+Check overlapping leave dates<br>
+        ↓<br>
+Validate leave balance<br>
+        ↓<br>
+Manager exists?<br>
+        ↓<br>
+PENDING / Auto-APPROVED<br>
+        ↓<br>
+Update leave balance<br>
+        ↓<br>
+Create notification<br>
+        ↓<br>
 Create audit log
 
-Notification Workflow:
-System action occurs
-        ↓
-Notification created (UNREAD)
-        ↓
-User views notifications
-        ↓
+Notification Workflow:<br>
+System action occurs<br>
+        ↓<br>
+Notification created (UNREAD)<br>
+        ↓<br>
+User views notifications<br>
+        ↓<br>
 Notifications marked as READ
 
-Audit Logging Workflow:
-Critical action performed
-        ↓
+Audit Logging Workflow:<br>
+Critical action performed<br>
+        ↓<br>
 Audit entry created with timestamp
 
-Goal Management Workflow:
-Employee creates goal
-        ↓
-Track progress
-        ↓
-Manager views team goals
-        ↓
+Goal Management Workflow:<br>
+Employee creates goal<br>
+        ↓<br>
+Track progress<br>
+        ↓<br>
+Manager views team goals<br>
+        ↓<br>
 Admin views all goals
 
-Performance Review Workflow:
-Employee submits self-review
-        ↓
-Status = SUBMITTED
-        ↓
-Manager adds feedback and rating
-        ↓
+Performance Review Workflow:<br>
+Employee submits self-review<br>
+        ↓<br>
+Status = SUBMITTED<br>
+        ↓<br>
+Manager adds feedback and rating<br>
+        ↓<br>
 Status = REVIEWED
 
 Technology Stack:
@@ -158,21 +158,21 @@ Unit tests implemented using JUnit
 Service-layer testing for authentication, leave, notifications, and performance modules
 
 Project Structure:
-RevWorkForce
-│── src/main/java
-│   ├── model
-│   ├── dao
-│   ├── service
-│   ├── util
-│   └── main
-│
-│── src/test/java
-│   └── service tests
-│
-│── resources
-│   └── log4j2.xml
-│
-│── pom.xml
+RevWorkForce<br>
+│── src/main/java<br>
+│   ├── model<br>
+│   ├── dao<br>
+│   ├── service<br>
+│   ├── util<br>
+│   └── main<br>
+│<br>
+│── src/test/java<br>
+│   └── service tests<br>
+│<br>
+│── resources<br>
+│   └── log4j2.xml<br>
+│<br>
+│── pom.xml<br>
 
 How to Run the Project:
 Clone the repository
