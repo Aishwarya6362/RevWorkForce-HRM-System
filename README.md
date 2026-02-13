@@ -181,6 +181,45 @@ Execute SQL scripts for tables and sequences
 Run the Main class
 Log in using valid employee credentials
 
+Perfect 👍 I’ll update it clean and professional.
+
+🔐 Default User Login Credentials
+
+The system supports three predefined roles: Admin, Manager, and Employee.
+
+🟦 Admin Login (Static – Predefined)
+Role	Employee ID	Access Level
+ADMIN	1001	Full System Access
+
+This Admin account is static and used for system configuration and employee management.
+
+🟦 Manager Logins (Predefined)
+Role	Employee ID
+MANAGER	2001
+MANAGER	2002
+MANAGER	2003
+MANAGER	2004
+MANAGER	2005
+
+Managers have access to:
+
+Employee features
+Team leave approvals
+Performance review feedback
+Goal tracking for team members
+
+🟦 Employee Logins (Sample Users)
+Role	Employee ID
+EMPLOYEE	3001
+EMPLOYEE	3002
+
+Employees can:
+
+Apply for leave
+View leave balance
+Submit performance reviews
+Set and track goals
+View notifications and announcements
 
 Project Summary:
 RevWorkForce is a secure, modular, role-based HRM backend system that demonstrates real-world enterprise concepts and strengthened practical expertise in Java backend development, JDBC, database design, logging, and testing.
